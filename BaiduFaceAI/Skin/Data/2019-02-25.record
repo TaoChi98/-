@@ -1,0 +1,43 @@
+[PunchCount]
+Count=10
+PunchedCount=11
+[1]
+EmployeeIndex=258
+PunchTime=2019-02-24 14:33:04
+Name=卫龙
+[2]
+EmployeeIndex=258
+PunchTime=2019-02-24 14:33:06
+Name=卫龙
+[3]
+EmployeeIndex=258
+PunchTime=2019-02-24 14:33:07
+Name=卫龙
+[4]
+EmployeeIndex=377
+PunchTime=2019-02-24 16:43:12
+Name=车春光
+[5]
+EmployeeIndex=377
+PunchTime=2019-02-24 16:43:15
+Name=车春光
+[6]
+EmployeeIndex=377
+PunchTime=2019-02-24 16:43:15
+Name=车春光
+[7]
+EmployeeIndex=563
+PunchTime=2019-02-24 17:46:28
+Name=郑昆华
+[8]
+EmployeeIndex=563
+PunchTime=2019-02-24 17:46:29
+Name=郑昆华
+[9]
+EmployeeIndex=258
+PunchTime=2019-02-24 18:21:57
+Name=卫龙
+[10]
+EmployeeIndex=258
+PunchTime=2019-02-24 18:21:58
+Name=卫龙

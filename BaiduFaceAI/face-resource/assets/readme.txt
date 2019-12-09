@@ -1,0 +1,20 @@
+﻿-rw-r--r-- 1 xuhailong 1049089     67664 1月   2 15:02 7pts.bin
+-rw-r--r-- 1 xuhailong 1049089    418880 1月  13 14:10 align.binary_64 ----------------------------------[4.0.0.1]
+-rw-r--r-- 1 xuhailong 1049089    512176 2月  12 11:37 align_server_stageI.model_fix
+-rw-r--r-- 1 xuhailong 1049089   2289568 2月  12 11:37 align_server_stageII.model_fix
+-rw-r--r-- 1 xuhailong 1049089  23763872 1月   2 15:02 attr_multi_task.bin
+-rw-r--r-- 1 xuhailong 1049089     91904 1月   2 15:02 blur.binary --------------------------------------[3.0.0.1]
+-rw-r--r-- 1 xuhailong 1049089    450784 2月  12 10:14 detect_model_server.binary
+-rw-r--r-- 1 xuhailong 1049089     59264 1月  13 14:10 facedetect.binary --------------------------------[V2.3	2.3.0.2]
+-rw-r--r-- 1 xuhailong 1049089    450782 1月   2 15:02 facedetect_server_big.binary
+-rw-r--r-- 1 xuhailong 1049089    695248 1月   2 15:02 facialLandmarksModel2.bin
+-rw-r--r-- 1 xuhailong 1049089    113408 2月  12 11:45 liveness_depth_96-13_1_5.model
+-rw-r--r-- 1 xuhailong 1049089    113408 2月  12 11:46 liveness_nir_82-11.model
+-rw-r--r-- 1 xuhailong 1049089  89382352 1月  31 14:33 lwx_1p_kejiyuan_4_imgs_per_id_128d_iter_78900.dat
+-rw-r--r-- 1 xuhailong 1049089    425456 1月   2 15:02 occlu.binary -------------------------------------[1.1.0.1]
+-rw-r--r-- 1 xuhailong 1049089 101966896 1月   2 15:02 recognize_model.dat ------------------------------[1.0.1.1]
+-rw-r--r-- 1 xuhailong 1049089    150928 1月  12 13:35 score.binary -------------------------------------[V2.3	2.3.0.2]
+-rw-r--r-- 1 tianfei01 197121   34761680 3月  27 14:33 remove_texture.model_fix -------------------------[2.0.18.1]
+-rw-r--r-- 1 tianfei01 197121   34761680 3月  27 14:33 super_resolution.model_fix -----------------------[2.0.18.1]
+-rw-r--r-- 1 tianfei01 197121  101887136 3月  27 14:33 finance_rec_1p.dat_fix ---------------------------[2.0.11.1]
+-rw-r--r-- 1 tomasran 197121 101887200 四月 23 11:52   safe_1pfc1_nobn_100_32bit.kv ---------------------[2.0.28.1]

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="1366,792" caption="0,0,0,80" roundcorner="4,4">
+	<font id="1" name="楷书" size="22" bold="true"/>
+	<font id="2" name="楷书" size="16" bold="true"/>
+	<font id="3" name="平方" size="40" bold="true"/>
+	<font id="4" name="平方" size="22" bold="true"/>
+	<font id="5" name="平方" size="18" bold="true"/>
+	<font id="6" name="平方" size="24" bold="true"/>
+	<font id="7" name="平方" size="36" bold="true"/>
+	<font id="8" name="楷书" size="12" bold="true"/>
+	<VerticalLayout bkimage="picture/MainBK.png">
+		<!-- 上方导航栏 -->
+		<HorizontalLayout height="50">
+			<HorizontalLayout width="295">
+				<Label float="true" pos="0,0,295,50" text="安徽创世人脸考勤识别系统" font="1" textcolor="0xFFFFFFFF" align="center" valign="center"/>
+			</HorizontalLayout>
+			
+			<HorizontalLayout />
+			
+			<HorizontalLayout width="40">
+				<!-- <Button name="setBtn" float="true" pos="8,13,32,37" normalimage="file='picture/setBtn.png' source='0,0,24,24'" hotimage="file='picture/setBtn.png' source='24,0,48,24'" pushedimage="file='picture/setBtn.png' source='48,0,72,24'"/> -->
+			</HorizontalLayout>
+			
+			<HorizontalLayout width="40">
+				<Button name="minbtn" float="true" pos="8,13,32,37" normalimage="file='picture/minBtn.png' source='0,0,24,24'" hotimage="file='picture/minBtn.png' source='24,0,48,24'" pushedimage="file='picture/minBtn.png' source='48,0,72,24'"/>
+			</HorizontalLayout>	
+			
+			<HorizontalLayout width="40">
+				<Button name="closebtn" float="true" pos="8,13,32,37" normalimage="file='picture/closeBtn.png' source='0,0,24,24'" hotimage="file='picture/closeBtn.png' source='24,0,48,24'" pushedimage="file='picture/closeBtn.png' source='48,0,72,24'"/>
+			</HorizontalLayout>
+		</HorizontalLayout>
+		
+		
+			<HorizontalLayout />
+		<!-- 下方任务栏 -->
+			<HorizontalLayout height="742">
+				<HorizontalLayout />
+				<VerticalLayout width="298">
+					<HorizontalLayout height="38"></HorizontalLayout>
+					<VerticalLayout height="702" bkimage="picture/leftBK.png">
+						<!-- 左边时间栏 -->
+						<VerticalLayout height="130">
+							<Label name="timeLabel" float="true" pos="0,60,298,90" font="3" text="" textcolor="0xFFFFFFFF" align="center" valign="center"/>
+							<Label name="dateLabel" float="true" pos="0,110,168,130" font="4" text="" textcolor="0xFFFFFFFF" textpadding="42,0,0,0" valign="center"/>
+							<Label name="weekLabel" float="true" pos="192,110,298,130" font="4" text="" textcolor="0xFFFFFFFF" textpadding="0,0,0,0" valign="center"/>
+						</VerticalLayout>
+						
+						<VerticalLayout height="222">
+							<HorizontalLayout />
+							<HorizontalLayout height="158">
+								<VerticalLayout />
+								<VerticalLayout width="128">
+									<Label name="weaPicLabel" float="true" pos="0,30,128,158"/>
+								</VerticalLayout>
+								<VerticalLayout />
+							</HorizontalLayout>
+							<HorizontalLayout />
+						</VerticalLayout>
+						
+						<!-- 天气栏 -->
+						<HorizontalLayout height="20">
+							<Label name="weatherLabel" float="true" pos="0,0,149,20" font="4" textcolor="0xFFFFFFFF" align="center" valign="center"/>
+							<Label name="windLabel" float="true" pos="149,0,298,20" font="4" textcolor="0xFFFFFFFF" align="center" valign="center"/>
+						</HorizontalLayout>	
+						<HorizontalLayout height="20"></HorizontalLayout>
+						<!-- 温度 -->
+						<HorizontalLayout height="35">
+							<Label name="CentigradeLabel" float="false" pos="0,0,298,30" font="3" textcolor="0xFFFFFFFF" align="center" valign="center"/>
+						</HorizontalLayout>
+						
+						<VerticalLayout />
+						
+						<HorizontalLayout height="6">
+							<Label float="true" pos="0,0,298,6" text="" textcolor="0xFFFFFFFF" align="center" valign="center"/>
+						</HorizontalLayout>
+						
+						<HorizontalLayout height="10"></HorizontalLayout>
+						<!-- 明天天气 -->
+						<HorizontalLayout height="30">
+							<Label float="true" pos="0,0,298,30" font="4" text="" textcolor="0xFF01B0F1" align="center" valign="center"/>
+						</HorizontalLayout>
+						<HorizontalLayout />
+						<HorizontalLayout height="138">
+							<HorizontalLayout />
+							<HorizontalLayout width="160">
+								<Label name="torPicLael" float="true" pos="0,0,160,138" />
+							</HorizontalLayout>
+							<HorizontalLayout />
+						</HorizontalLayout>
+						<HorizontalLayout />
+						<HorizontalLayout height="50">
+							<HorizontalLayout>
+								<Label name="torWeatherLabel" float="true" pos="0,0,149,50" font="4" textcolor="0xFF01B0F1" align="center" valign="center"/>
+							</HorizontalLayout>
+							<HorizontalLayout>
+								<Label name="torCenLabel" float="true" pos="0,0,149,50" font="4" textcolor="0xFF01B0F1" align="center" valign="center"/>
+							</HorizontalLayout>
+						</HorizontalLayout>
+					</VerticalLayout>
+					<HorizontalLayout />
+				</VerticalLayout>
+				
+				<HorizontalLayout width="10"></HorizontalLayout>
+				<VerticalLayout width="1038">
+					<VerticalLayout height="742">
+					
+						<HorizontalLayout height="476">
+							<!-- 视频栏 -->
+							<Container width="672">
+								<label name="videocaplabel" float="true" pos="0,0,672,446" bkcolor="0xff0000ff" borderround="100,100"/>
+								<Label float="true" pos="0,0,672,446" bkimage="picture/videoBK.png"/>
+							</Container> 
+							
+							<HorizontalLayout />
+							
+							<!-- 右边对比栏 -->
+							<VerticalLayout width="348">
+								<HorizontalLayout float="true" pos="0,0,348,224">
+									<VerticalLayout width="138">
+										<Label float="true" pos="0,20,138,40" font="4" text="抓拍照片" textcolor="0xFFFFFFFF" align="center" valign="center"/>
+										<!-- <VerticalLayout name="face_VerticalLayout" float="true" pos="0,50,138,214"> -->
+										<!-- </VerticalLayout> -->
+										<Label name="videoLabel" float="true" pos="0,50,138,214"/>
+									</VerticalLayout>
+									<VerticalLayout width="72">
+										<Label name="ScoresLabel" float="true" pos="11,107,61,157" font="5" textcolor="0xFFFFFFFF" align="center" valign="center"/>
+									</VerticalLayout>
+									<VerticalLayout width="138">
+										<Label float="true" pos="0,20,138,40" font="4" text="对比照片" textcolor="0xFFFFFFFF" align="center" valign="center"/>
+										<VerticalLayout name="compareVerticalLayout" float="true" pos="0,50,138,214">
+											<!-- 加入对比照片 -->
+										</VerticalLayout>
+									</VerticalLayout>
+								</HorizontalLayout>
+							
+								<VerticalLayout name="FaceIcon_Failed" float="true" pos="0,224,348,476" bkimage="picture/rightBK.png" visible="false">
+									<HorizontalLayout height="60">
+										<Label float="true" pos="0,0,348,60" font="6" textcolor="0xFFFF0000" text="打卡失败!" align="center" valign="center"/>
+									</HorizontalLayout>
+									<HorizontalLayout />
+									<HorizontalLayout height="128">
+										<HorizontalLayout />
+										<HorizontalLayout width="128">
+											<Label float="true" pos="0,0,128,128" bkimage="picture/cry.png"/>
+										</HorizontalLayout>
+										<HorizontalLayout />
+									</HorizontalLayout>
+									<HorizontalLayout />
+									<HorizontalLayout height="60">
+										<Label float="true" pos="0,0,348,60" font="6" textcolor="0xFFFF0000" text="请重新打卡!" align="center" valign="center"/>
+									</HorizontalLayout>
+								</VerticalLayout>
+							
+								<!-- 对比栏 -->
+								<VerticalLayout name="FaceIcon_Success" float="true" pos="0,224,348,476" bkimage="picture/rightBK.png">
+									<HorizontalLayout height="55">
+										<Label name="nameLabel" float="true" pos="0,30,174,55" font="6" textcolor="0xFFF4C61C" textpadding="70,0,0,0" valign="center"/>
+										<Label name="timeIntervalLabel" float="true" pos="174,30,348,55" font="6" textcolor="0xFFffffff" valign="center" textpadding="24,0,0,0"/>
+									</HorizontalLayout>
+									<HorizontalLayout height="50">
+										<Label float="true" pos="0,30,150,50" font="4" text="部    门 :" textcolor="0xFFffffff" align="right" valign="center"/>
+										<Label name="DepartmentLabel" float="true" pos="150,30,340,50" font="4" textcolor="0xFFffffff" textpadding="15,0,0,0" valign="center"/>
+									</HorizontalLayout>
+									<HorizontalLayout height="38">
+										<Label float="true" pos="0,14,150,38" font="4" text="工    号 :" textcolor="0xFFffffff" align="right" valign="center"/>
+										<Label name="EmployLabel" float="true" pos="150,14,340,38" font="4" textcolor="0xFFffffff" textpadding="15,0,0,0" valign="center"/>
+									</HorizontalLayout>
+									<HorizontalLayout height="38">
+										<Label float="true" pos="0,14,150,38" font="4" text="打卡时间 :" textcolor="0xFFffffff" align="right" valign="center"/>
+										<Label name="PunchTimeLabel" float="true" pos="150,14,340,38" font="4" textcolor="0xFFffffff" textpadding="15,0,0,0" valign="center"/>
+									</HorizontalLayout>
+									<HorizontalLayout height="38">
+										<Label float="true" pos="0,14,150,38" font="4" text="打卡状态 :" textcolor="0xFFffffff" align="right" valign="center"/>
+										<Label name="punchStateLabel" float="true" pos="150,14,290,38" font="4" text="打卡正常哟!" textcolor="0xFFffffff" textpadding="15,0,0,0" valign="center" visible="false"/>
+										<Label name="IconLabel" float="true" pos="290,6,322,38" font="4" bkimage="picture/smile.png" visible="false"/>
+									</HorizontalLayout>
+									<HorizontalLayout height="20">
+										<Label name="ErrorLabel" float="true" pos="230,0,340,25" font="8" text="" textcolor="0xFFFF0000" textpadding="15,0,0,0" valign="center"/>
+									</HorizontalLayout>
+								</VerticalLayout>
+								
+							</VerticalLayout>
+						</HorizontalLayout>
+						
+						<HorizontalLayout height="14"></HorizontalLayout>
+						
+						<VerticalLayout name="Bottom_VLayout" height="250">
+						</VerticalLayout>	
+						
+					
+						<!-- 下方图片栏 -->
+						
+					</VerticalLayout>
+				</VerticalLayout>
+				<HorizontalLayout />
+			</HorizontalLayout>
+			
+			<HorizontalLayout />
+		
+	</VerticalLayout>
+</Window>

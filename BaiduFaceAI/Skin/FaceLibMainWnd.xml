@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="730,500" caption="0,0,0,44" roundcorner="4,4" mininfo="620,500" maxinfo="620,500">
+	<font id="1" name="楷书" size="22" bold="true"/>
+	<font id="2" name="楷书" size="18" bold="true"/>
+	<font id="3" name="楷书" size="10" bold="true"/>
+	<VerticalLayout bkcolor="0xFF030730">
+		<HorizontalLayout height="44">
+			<HorizontalLayout width="200">
+				<Label float="true" pos="0,0,200,44" text="人脸库管理系统" font="1" textcolor="0xFFFFFFFF" textpadding="5,0,0,0" valign="center"/>
+			</HorizontalLayout>
+			<HorizontalLayout />
+			<HorizontalLayout width="72">
+				<VerticalLayout width="36">
+					<Button name="minbtn" float="true" pos="6,10,30,34" normalimage="file='picture/minBtn.png' source='0,0,24,24'" hotimage="file='picture/minBtn.png' source='24,0,48,24'" pushedimage="file='picture/minBtn.png' source='48,0,72,24'"/>
+				</VerticalLayout>
+				<VerticalLayout width="36">
+					<Button name="closebtn" float="true" pos="6,10,30,34" normalimage="file='picture/closeBtn.png' source='0,0,24,24'" hotimage="file='picture/closeBtn.png' source='24,0,48,24'" pushedimage="file='picture/closeBtn.png' source='48,0,72,24'"/>
+				</VerticalLayout>
+			</HorizontalLayout>
+		</HorizontalLayout>
+		
+		<HorizontalLayout height="1" bkcolor="0xFF01B0F1"></HorizontalLayout>
+		
+		<HorizontalLayout>
+			<VerticalLayout width="220">
+				<HorizontalLayout height="20">
+					<Edit name="search_edit" float="true" pos="5,2,100,18" textcolor="0xFF000000" font="3" maxchar="10" tooltip="请输入需要搜索的工号或者姓名"/>
+					<Button name="searchbtn" float="true" pos="105,2,220,18" bkcolor="#ff2582e6" textcolor="0xFFFFFFFF" text="姓名(工号)搜索" tooltip="按工号或者姓名搜索用户"/>
+				</HorizontalLayout>
+			
+				<VerticalLayout>
+					<TreeView  name="treeView" visiblefolderbtn="true" visiblecheckbtn="false" vscrollbar="true" bordercolor="#ff2582e6" bordersize="1" bkcolor="#ffffffff" inset="1,0,1,1" header="true" headerbkimage="file='picture/list_header_bg.png'">
+					</TreeView>
+				</VerticalLayout>
+			</VerticalLayout>
+			
+			<HorizontalLayout />
+			
+			<VerticalLayout width="260">
+				<VerticalLayout height="20">
+				</VerticalLayout>
+				<VerticalLayout height="410">
+					<HorizontalLayout height="200">
+						<Button name="PeoPicBtn" float="true" pos="85,0,255,200"/>
+					</HorizontalLayout>
+					<HorizontalLayout height="70">
+						<Label text="姓名:" float="true" pos="10,10,80,70" textcolor="0xFFFFFFFF" font="1"/>
+						<Edit name="name_edit" float="true" pos="85,20,255,60" textcolor="0xFF000000" font="1" readonly="true" maxchar="7"/>
+					</HorizontalLayout>
+					<HorizontalLayout height="70">
+						<Label text="工号:" float="true" pos="10,10,80,70" textcolor="0xFFFFFFFF" font="1"/>
+						<Edit name="num_edit" float="true" pos="85,20,255,60" textcolor="0xFF000000" font="1" readonly="true" maxchar="7" numberonly="true"/>
+					</HorizontalLayout>
+					<HorizontalLayout height="70">
+						<Label text="部门:" float="true" pos="10,10,80,70" textcolor="0xFFFFFFFF" font="1"/>
+						<Edit name="dept_edit" float="true" pos="85,20,255,60" textcolor="0xFF000000" font="1" readonly="true" maxchar="7"/>
+					</HorizontalLayout>
+				</VerticalLayout>
+				
+				<HorizontalLayout />
+			</VerticalLayout>
+			
+			<VerticalLayout />
+			<!-- 按钮134*42 -->
+			<VerticalLayout width="175">
+				<HorizontalLayout />
+				
+				<HorizontalLayout height="62">
+					<Button name="Single_Regist" float="true" pos="36,10,170,52" normalimage="file='picture/Single_Regist.png' source='0,0,134,42'" hotimage="file='picture/Single_Regist.png' source='134,0,268,42'" pushedimage="file='picture/Single_Regist.png' source='268,0,402,42'" disabledimage="file='picture/disenable1.png'"/>
+				</HorizontalLayout>
+				<HorizontalLayout height="62">
+					<Button name="Delete_User" float="true" pos="36,10,170,52"  normalimage="file='picture/Delete_User.png' source='0,0,134,42'" hotimage="file='picture/Delete_User.png' source='134,0,268,42'" pushedimage="file='picture/Delete_User.png' source='268,0,402,42'" disabledimage="file='picture/disenable2.png'"/>
+				</HorizontalLayout>
+				<HorizontalLayout height="62">
+					<Button name="Change_Pic"  float="true" pos="36,10,170,52" normalimage="file='picture/Change_Pic.png' source='0,0,134,42'" hotimage="file='picture/Change_Pic.png' source='134,0,268,42'" pushedimage="file='picture/Change_Pic.png' source='268,0,402,42'" disabledimage="file='picture/disenable3.png'"/>
+				</HorizontalLayout>
+				
+				<HorizontalLayout height="40">
+					<Button name="makesure" float="true" pos="0,4,80,36" normalimage="file='picture/MakeSureBtn.png' source='0,0,80,32'" hotimage="file='picture/MakeSureBtn.png' source='80,0,160,32'" pushedimage="file='picture/MakeSureBtn.png' source='160,0,240,32'" disabledimage="file='picture/disenable4.png'"/>
+					<Button name="cancel" float="true" pos="90,4,170,36" normalimage="file='picture/CancelBtn.png' source='0,0,80,32'" hotimage="file='picture/CancelBtn.png' source='80,0,160,32'" pushedimage="file='picture/CancelBtn.png' source='160,0,240,32'" disabledimage="file='picture/disenable5.png'"/>
+				</HorizontalLayout>
+				
+				<HorizontalLayout height="30">
+				</HorizontalLayout>
+			</VerticalLayout>
+		</HorizontalLayout>
+		
+	</VerticalLayout>
+</Window>

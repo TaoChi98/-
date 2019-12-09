@@ -1,0 +1,50 @@
+﻿  stdafx.cpp
+  XMLBaseWnd.cpp
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  device_enumerator.cpp
+  RegistWnd.cpp
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\affine.hpp(49): fatal error C1083: 无法打开包括文件: “opencv2/core.hpp”: No such file or directory
+  MainWnd.cpp
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\affine.hpp(49): fatal error C1083: 无法打开包括文件: “opencv2/core.hpp”: No such file or directory
+  liveness.cpp
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\baidufaceai\liveness.h(3): fatal error C1083: 无法打开包括文件: “baidu_face_api.h”: No such file or directory
+  image_buf.cpp
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\baidufaceai\image_buf.cpp(13): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+  image_base64.cpp
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\baidufaceai\image_base64.cpp(4): fatal error C1083: 无法打开包括文件: “opencv2\opencv.hpp”: No such file or directory
+  FileManager.cpp
+  FaceLibManager.cpp
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\affine.hpp(49): fatal error C1083: 无法打开包括文件: “opencv2/core.hpp”: No such file or directory
+  cv_help.cpp
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\baidufaceai\cv_help.h(8): fatal error C1083: 无法打开包括文件: “opencv2/opencv.hpp”: No such file or directory
+  BaiduFaceAIInclude.cpp
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\affine.hpp(49): fatal error C1083: 无法打开包括文件: “opencv2/core.hpp”: No such file or directory
+  BaiduFaceAIDlg.cpp
+  BaiduFaceAI.cpp
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\oem\人脸识别\crdemo\baidufaceaioffline\baidufaceai\include\baidufaceai\opencv2\core\affine.hpp(49): fatal error C1083: 无法打开包括文件: “opencv2/core.hpp”: No such file or directory
+  正在生成代码...
